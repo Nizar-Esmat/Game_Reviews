@@ -1,0 +1,16 @@
+
+.navbar{
+    background-color: #3A497B;
+    border-radius: 50px ;
+}
+
+.card{
+
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.navbar ul li a:hover {
+
+    transform: scale(1.2);
+}

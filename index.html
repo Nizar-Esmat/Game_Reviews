@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Game Reviews</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg container my-4 position-sticky top-0 z-3">
+    <div class="container-fluid">
+        <a class="navbar-brand text-light" href="#">Game Reviews</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
+                <li class="nav-item text-center">
+                    <a class="nav-link text-light" aria-current="page" href="#">MMORPG</a>
+                </li>
+                <li class="nav-item text-center">
+                    <a class="nav-link text-light" aria-current="page" href="#">Shooter</a>
+                </li>
+                <li class="nav-item text-center">
+                    <a class="nav-link text-light" aria-current="page" href="#">Sailing</a>
+                </li>
+                <li class="nav-item text-center">
+                    <a class="nav-link text-light" aria-current="page" href="#">Permadeath</a>
+                </li>
+                <li class="nav-item text-center">
+                    <a class="nav-link text-light" aria-current="page" href="#">Superhero</a>
+                </li>
+                <li class="nav-item text-center">
+                    <a class="nav-link text-light" aria-current="page" href="#">Pixel</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<section class="dispaly_game container my-5">
+    <div class="row" id="allgame">
+
+
+    </div>
+</section>
+
+<section class="details ">
+    <div class="container">
+        <header class="hstack justify-content-between">
+            <h1 class="text-center h3 py-4">Details Game</h1>
+            <button class="btn-close  bg-danger" id="btnClose"></button>
+        </header>
+        <div class="row g-4" id="detailsContent"></div>
+    </div>
+</section>
+
+<script src="node_modules/jquery/dist/jquery.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script type="module" src="scripte/scripte.js"></script>
+</body>
+</html>
