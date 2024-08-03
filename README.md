@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>README - Game_Reviews App</title>
-</head>
+
 <body>
 
 <h1>Game_Reviews App</h1>
